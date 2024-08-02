@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2px;
+    padding: 2px;
+  }
+
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+  h1, h3 {
+    margin-top: 0;
+    color: #333;
+  }
+
+  form div {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #218838;
+  }
+
+  .contact-method {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-method select,
+  .contact-method input {
+    width: 48%;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center;
+  }
+  .texts{
+    background-color: #f4f4f4;
+    width: 30%;
+    height: 30vh;
+    border :2px solid rgb(150, 153, 154);
+    margin: 3px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
